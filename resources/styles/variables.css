@@ -1,0 +1,20 @@
+:root {
+  /* Colors */
+  --color-background-footer: #353534;
+  --color-text-footer: #bfbfbf;
+  --color-text-grey: #000;
+  --color-white: #fff;
+  --color-lit2vin: #a71680;
+  --color-bleu-poste: #003da5;
+  --color-jaune-poste: #ffcb05;
+
+  /* Fonts */
+  --font-text: roboto;
+  --font-title: montserrat;
+
+  /* Sizes */
+  --width-content: 1280px;
+
+  /* Margins */
+  --margin-content: 25px;
+}

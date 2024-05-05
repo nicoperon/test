@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'variables';
+@import 'common';
+@import 'footer';
+@import 'article';
+@import 'header.css';
+@import 'carousel.css';
+@import 'cgu.css';
+
+.wp-embed-responsive {
+  margin: auto;
+}
+
+body.no-scroll {
+  overflow: hidden !important;
+}

@@ -1,0 +1,12 @@
+.carousel-images {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #c8c0b6 50% / cover no-repeat;
+}
+
+.carousel-images img {
+  width: 100%;
+  position: relative;
+  left: -13px;
+}

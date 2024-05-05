@@ -1,0 +1,279 @@
+.login-container {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  top: -16%;
+}
+
+.login-square {
+  height: 80%;
+  margin: auto;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* body {
+  padding-top: inherit;
+} */
+
+.connectez-container .connectez-text {
+  color: var(--color-bleu-poste, #003da5);
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.component-1 .access-ressource {
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.component-1 .access-ressource .access-text {
+  color: var(--color-text-grey, #000);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.component-1 .access-ressource .slash-text {
+  color: var(--color-text-grey, #000);
+  font-family: Barlow, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: normal;
+}
+
+.component-1 .access-ressource .gratuit-text {
+  color: var(--color-bleu-poste, #003da5);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.login-container .en-validant-text {
+  max-width: 570px;
+  color: var(--color-lit2vin, #a71680);
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.login-container .cochez-text {
+  color: var(--color-text-grey, #000);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.connectez-container {
+  max-width: 568px;
+  height: 62px;
+  flex-shrink: 0;
+}
+
+.login-container .terms {
+  color: var(--color-text-grey, #000);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 550px;
+}
+
+.login-container .terms .conditions {
+  color: var(--color-bleu-poste, #003da5);
+  font-weight: 700;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container form label {
+  height: 69;
+  display: flex;
+  flex-direction: row;
+  align-items: normal;
+  gap: 12px;
+}
+
+.login-container form input[type="checkbox"] {
+  width: 23px;
+  height: 23px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  background: var(--color-white, #fff);
+}
+
+form button {
+  width: 230px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid var(--Jaune-Poste, #ffcb05);
+  background: var(--Jaune-Poste, #ffcb05);
+  margin-bottom: 45px;
+}
+
+form button span {
+  color: var(--color-bleu-poste, #003da5);
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+form label .accept_pub {
+  max-width: 550px;
+  height: 96px;
+  flex-shrink: 0;
+  color: #787878;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.login-container .info-traitement-donnees {
+  margin-top: 15%;
+  max-width: 509px;
+  color: var(--color-text-grey, #000);
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.cgu-header {
+  position: relative;
+  top: -16%;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button[type="submit"] {
+  background-color: #ffcb05;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #003da5;
+}
+
+button[type="submit"]:hover span {
+  color: #ffcb05;
+}
+
+.center-left.cgu {
+  width: fit-content;
+  position: relative;
+  left: 8%;
+}
+
+@media (max-width: 800px) {
+  .center-left.cgu {
+    left: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .login-square {
+    width: 60%;
+  }
+
+  form label .accept_pub {
+    max-width: 475px;
+  }
+}
+
+@media (max-width: 800px) {
+  .login-square {
+    width: 75%;
+  }
+}
+
+@media (max-width: 670px) {
+  .login-square {
+    width: 90%;
+  }
+}
+
+@media (max-width: 570px) {
+  .login-container form label {
+    height: 56px;
+  }
+
+  .login-container .connectez-container {
+    margin-top: 30px;
+  }
+
+  .connectez-container {
+    height: 20px;
+  }
+
+  .connectez-container .connectez-text {
+    font-size: 20px;
+  }
+
+  .login-container .en-validant-text {
+    font-size: 14px;
+  }
+
+  .login-container .terms {
+    font-size: 12px;
+  }
+
+  form label .accept_pub {
+    font-size: 14px;
+    max-width: 90%;
+  }
+
+  form button {
+    margin-bottom: 18px;
+    position: relative;
+    left: 12%;
+  }
+
+  .login-container .cochez-text {
+    margin-bottom: 5px;
+  }
+
+  .login-square {
+    left: inherit;
+    transform: none;
+    position: relative;
+    max-width: 95%;
+    width: 100%;
+    padding: 5px;
+    top: 6%;
+  }
+
+  .login-container .info-traitement-donnees {
+    margin-top: 33%;
+  }
+}

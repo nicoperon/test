@@ -1,0 +1,43 @@
+{
+  "name": "radicle",
+  "private": true,
+  "browserslist": [
+    "extends @roots/browserslist-config"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "bud": {
+    "extensions": {
+      "discover": false
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "build": "yarn bud build production",
+    "dev": "yarn bud build development",
+    "influactive": "git stash && git pull && yarn install && composer update && yarn bud build production && wp acorn optimize"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.31.2",
+    "@roots/bud": "6.11.0",
+    "@roots/bud-eslint": "6.11.0",
+    "@roots/bud-imagemin": "6.11.0",
+    "@roots/bud-preset-wordpress": "6.11.0",
+    "@roots/bud-prettier": "6.11.0",
+    "@roots/bud-sass": "^6.11.0",
+    "@roots/bud-stylelint": "6.11.0",
+    "@roots/bud-swc": "6.11.0",
+    "@roots/bud-tailwindcss": "6.11.0",
+    "@roots/eslint-config": "6.11.0",
+    "@roots/sage": "6.11.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "@types/alpinejs": "^3.7.1",
+    "@types/wordpress__blocks": "^12.5.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@roots/wordpress-hmr": "6.11.0",
+    "alpinejs": "^3.12.0"
+  }
+}
